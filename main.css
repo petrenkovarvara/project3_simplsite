@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: "Kudryashev Display";
+    src: url("../fonts/KudryashevDisplay-Regular.woff2") format("woff2"),
+         url("../fonts/KudryashevDisplay-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url(../images/background.jpg);
+    background-position: top center;
+    font-family: Kudryashev Display;
+    color: white;
+    text-align: center;
+    font-size: 31px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h1, h2, h3 {
+    font-family: "Kudryashev Display", serif;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    padding: 0 20px;
+    font-size: 31px;
+}
+
+p {
+    margin-top: -10px;
+    padding: 0 20px;
+}
+
+.rightcol iframe {
+    margin-top: -10px; /* поднимает видео */
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* оставляет по центру */
+}
+
+.container {
+    width: 1000px;
+    height: auto;
+    margin: 40px auto 50px auto;
+}
+
+header {
+    width: 1000px;
+    height: 220px;
+    display: flex;
+}
+
+.logobox {
+    width: 480px;
+    height: 220px;
+    padding-top: 30px;
+}
+nav {
+    width: 400px;
+    height: 370px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-left: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: white; 
+    font-family: Kudryashev Display; 
+    font-size: 20px; 
+    letter-spacing: 1px;
+}    
+
+nav a:hover {
+    color: #d4c7a8; 
+    transition: 0.3s ease;
+    letter-spacing: 2px; 
+}
+
+
+
+.featuredimage {
+    width: 1000px;
+    height: 316px;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+}
+
+main {
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+
+.leftcol {
+    width: 600px;
+    height: 600px;
+    background-color: #0b1109;
+}
+.rightcol {
+    width: 380px;
+    height: 600px;
+    background-color: #0b1109;
+}
+
+footer {
+    width: 1000px;
+    height: 90px;
+    background-color: #0b1109;
+    color: white;
+    font-family: arial;
+    text-align: center;
+    line-height: 90px;
+    font-size: 16px;
+}
+
+
+/* HISTORY PAGE STYLES */
+
+.historypage {
+width: 1000px;
+height: 700px;
+background-color: #0b1109;
+}
